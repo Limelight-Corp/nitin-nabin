@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Archivo, Newsreader } from "next/font/google";
 import { SmoothScroll } from "@/components/SmoothScroll";
 import "./globals.css";
@@ -18,13 +18,18 @@ const newsreader = Newsreader({
   weight: ["400", "500", "600", "700"]
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
+  themeColor: "#21130D",
+};
+
 export const metadata: Metadata = {
   title: "Nitin Nabin | National President, Bharatiya Janata Party",
   description: "Official public record and leadership documentation of Nitin Nabin, National President of the Bharatiya Janata Party and Member of the Bihar Legislative Assembly.",
   keywords: ["Nitin Nabin", "BJP National President", "Bankipur", "Bihar BJP", "Bharatiya Janata Party", "Nitin Nabin Bihar"],
   authors: [{ name: "Office of Nitin Nabin" }],
-  viewport: "width=device-width, initial-scale=1, maximum-scale=5",
-  themeColor: "#21130D",
   icons: {
     icon: "/favicon.ico"
   }

@@ -1,13 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Language,
   VALS_EN,
   VALS_HI,
   MILESTONES,
 } from "@/data/websiteData";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Sparkles } from "lucide-react";
 import { Reveal } from "@/components/Reveal";
 
 interface HomeViewProps {
@@ -108,7 +108,6 @@ export const HomeView: React.FC<HomeViewProps> = ({ lang, onNavigate }) => {
   const [activeYear, setActiveYear] = useState(
     MILESTONES[0]?.year || "2006"
   );
-
   const tr = (o: { en: string; hi: string }) => (hi ? o.hi : o.en);
   const selectedField = vals.fields[activeField] || vals.fields[0];
   const selectedLead = vals.leadSections[activeField] || vals.leadSections[0];
@@ -117,6 +116,38 @@ export const HomeView: React.FC<HomeViewProps> = ({ lang, onNavigate }) => {
 
   return (
     <div className="space-y-0" style={{ background: "#F7F4EE", color: "#171717" }}>
+      {/* ── UNDER DEVELOPMENT NOTICE BANNER ────────────────────── */}
+      <aside
+        aria-label={hi ? "पोर्टल विकास सूचना" : "Portal development notice"}
+        className="w-full bg-[#FFF4E5] border-b border-[#E87518]/30 px-4 py-2.5 flex flex-wrap items-center justify-between gap-3 text-xs"
+        style={{ color: "#21130D" }}
+      >
+        <div className="flex items-center gap-2.5 flex-wrap">
+          <span className="relative flex h-2 w-2 shrink-0">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#E87518] opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#E87518]" />
+          </span>
+          <span className="font-sans-body font-semibold tracking-wide flex items-center gap-1.5 shrink-0">
+            <Sparkles className="w-3.5 h-3.5 text-[#E87518]" />
+            {hi ? "आधिकारिक सूचना:" : "Official Notice:"}
+          </span>
+          <span className="font-sans-body text-[#5A4D3D]">
+            {hi
+              ? "श्री नितिन नबीन जी का आधिकारिक पोर्टल विकास कार्य प्रगति पर है। संपूर्ण अनुभव शीघ्र उपलब्ध होगा।"
+              : "The official portal of Shri Nitin Nabin is currently under development. Full platform coming soon."}
+          </span>
+        </div>
+
+        <button
+          type="button"
+          onClick={() => onNavigate("under-development")}
+          className="px-3 py-1 bg-[#E87518] text-[#171717] hover:bg-[#D4650D] hover:text-white transition-colors font-sans-body font-bold text-[11px] uppercase tracking-wider flex items-center gap-1 cursor-pointer"
+        >
+          <span>{hi ? "सूचना देखें" : "View Notice"}</span>
+          <ArrowRight className="w-3 h-3" />
+        </button>
+      </aside>
+
       {/* ── 01 HERO ─────────────────────────────────────────────── */}
       <Reveal
         as="section"
@@ -1131,6 +1162,26 @@ export const HomeView: React.FC<HomeViewProps> = ({ lang, onNavigate }) => {
           </div>
         </div>
       </Reveal>
+
+      {/* ── FLOATING TRIGGER TO RE-OPEN MODAL ─────────────────────── */}
+      <div className="fixed bottom-20 right-4 z-40 sm:bottom-6 sm:right-6">
+        <button
+          type="button"
+          onClick={() => onNavigate("under-development")}
+          className="group flex items-center gap-2 px-3.5 py-2.5 bg-[#FFFDF9] border border-[#171717]/25 shadow-xl hover:bg-[#E87518] hover:text-white transition-all cursor-pointer"
+          style={{ color: "#171717" }}
+          title={hi ? "विकास सूचना देखें" : "View Development Notice"}
+        >
+          <span className="relative flex h-2.5 w-2.5 shrink-0">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#E87518] group-hover:bg-white opacity-75" />
+            <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-[#E87518] group-hover:bg-white" />
+          </span>
+          <Sparkles className="w-4 h-4 text-[#E87518] group-hover:text-white transition-colors shrink-0" />
+          <span className="font-sans-body font-bold text-xs tracking-wide">
+            {hi ? "पोर्टल विकासधीन है" : "Under Development"}
+          </span>
+        </button>
+      </div>
     </div>
   );
 };
