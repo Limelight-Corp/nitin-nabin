@@ -1017,39 +1017,49 @@ export const HomeView: React.FC<HomeViewProps> = ({ lang, onNavigate }) => {
                 {hi ? "चित्र अभिलेख" : <>The <em style={{ fontStyle: "italic", color: "#E87518" }}>Visual</em> Record</>}
               </h2>
             </div>
-            <p style={{ font: "400 14px/1.6 'Archivo',sans-serif", color: "#5C564F", margin: 0, maxWidth: "40ch" }}>
-              {tr(T.photoNote)}
-            </p>
           </div>
 
           <div className="grid" style={{ gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,215px),1fr))", gap: "12px" }}>
-            {vals.albums.map((a, idx) => (
-              <Reveal
-                as="button"
-                key={idx}
-                delay={Math.min(idx * 60, 360)}
-                onClick={() => onNavigate("media")}
-                className="relative text-left cursor-pointer"
-                style={{
-                  border: "1px solid rgba(33,19,13,.2)",
-                  background: "#FFE9C4",
-                  minHeight: "210px",
-                  overflow: "hidden",
-                }}
-              >
-                <div
-                  className="relative flex flex-col items-start gap-1.5 justify-end h-full"
-                  style={{ padding: "15px", minHeight: "210px" }}
+            {vals.albums.map((a, idx) => {
+              const albumImg = a.image || `/images/albums/album-${idx + 1}.jpg`;
+              return (
+                <Reveal
+                  as="button"
+                  key={idx}
+                  delay={Math.min(idx * 60, 360)}
+                  onClick={() => onNavigate("media")}
+                  className="relative text-left cursor-pointer group"
+                  style={{
+                    border: "1px solid rgba(33,19,13,.2)",
+                    background: "#FFE9C4",
+                    minHeight: "210px",
+                    overflow: "hidden",
+                  }}
                 >
-                  <span style={{ font: "600 9.5px/1 'Archivo',sans-serif", letterSpacing: ".15em", textTransform: "uppercase", color: "#FFF8EC", background: "#E87518", padding: "5px 8px" }}>
-                    {a.count}
-                  </span>
-                  <span className="font-serif-brand" style={{ fontSize: "23px", lineHeight: 1.1, color: "#21130D", background: "#FFF8EC", padding: "5px 9px" }}>
-                    {a.title}
-                  </span>
-                </div>
-              </Reveal>
-            ))}
+                  <img
+                    src={albumImg}
+                    alt={a.title}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    onError={(e) => {
+                      (e.target as HTMLElement).style.display = "none";
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent pointer-events-none opacity-80 group-hover:opacity-90 transition-opacity" />
+
+                  <div
+                    className="relative z-10 flex flex-col items-start gap-1.5 justify-end h-full"
+                    style={{ padding: "15px", minHeight: "210px" }}
+                  >
+                    <span style={{ font: "600 9.5px/1 'Archivo',sans-serif", letterSpacing: ".15em", textTransform: "uppercase", color: "#FFF8EC", background: "#E87518", padding: "5px 8px" }}>
+                      {a.count}
+                    </span>
+                    <span className="font-serif-brand" style={{ fontSize: "23px", lineHeight: 1.1, color: "#21130D", background: "#FFF8EC", padding: "5px 9px" }}>
+                      {a.title}
+                    </span>
+                  </div>
+                </Reveal>
+              );
+            })}
           </div>
         </div>
       </Reveal>

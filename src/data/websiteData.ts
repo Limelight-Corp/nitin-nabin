@@ -128,6 +128,7 @@ export interface AlbumItem {
   slotId?: string;
   mediaSlotId?: string;
   placeholder?: string;
+  image?: string;
 }
 
 export interface ArcStep {

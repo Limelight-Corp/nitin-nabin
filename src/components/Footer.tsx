@@ -749,7 +749,46 @@ export const Footer: React.FC<FooterProps> = ({ lang, onNavigate }) => {
                   </div>
                   <p className="text-[12px] leading-relaxed text-[#3D3831] m-0 mb-1.5 line-clamp-2">
                     {hi
-                      ? "संगठन पर्व: कार्यकर्त              {/* Card Bottom Footer */}
+                      ? "संगठन पर्व: कार्यकर्ताओं की ऊर्जा और समर्पण ही भारतीय जनता पार्टी की वास्तविक पूंजी है। सेवा ही संगठन।"
+                      : "Workers' devotion and selfless service are the true strength of the party."}
+                  </p>
+                  <div className="flex items-center justify-between text-[10.5px] text-[#7A7268]">
+                    <span>5 days ago</span>
+                    <span>❤️ 19.2K · 💬 640</span>
+                  </div>
+                </div>
+
+                {/* IG Post 3 */}
+                <div data-feed-item className="p-2.5 bg-[#F9F9F9] border border-gray-200 rounded-sm">
+                  <div
+                    className="relative rounded overflow-hidden mb-2 border border-gray-100 bg-[#171717]"
+                    style={{ aspectRatio: "16/9" }}
+                  >
+                    <img
+                      src="/images/portrait-contact.avif"
+                      alt="Party Office"
+                      className="w-full h-full object-cover"
+                    />
+                    <div className="absolute top-2 right-2 bg-black/60 text-white text-[10px] font-medium px-1.5 py-0.5 rounded-full">
+                      1/5
+                    </div>
+                    <div className="absolute bottom-1.5 left-2 text-white text-[10px] font-semibold drop-shadow">
+                      नई दिल्ली • केंद्रीय कार्यालय
+                    </div>
+                  </div>
+                  <p className="text-[12px] leading-relaxed text-[#3D3831] m-0 mb-1.5 line-clamp-2">
+                    {hi
+                      ? "नई दिल्ली स्थित केंद्रीय कार्यालय में कार्यकर्ताओं एवं वरिष्ठ पदाधिकारियों से आत्मीय संवाद।"
+                      : "Engaging discussions with senior functionaries and workers at the party headquarters, New Delhi."}
+                  </p>
+                  <div className="flex items-center justify-between text-[10.5px] text-[#7A7268]">
+                    <span>1 week ago</span>
+                    <span>❤️ 12.1K · 💬 310</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card Bottom Footer */}
               <div className="p-2.5 border-t border-gray-100 bg-[#FAFAFA] flex items-center justify-between text-[11px] shrink-0">
                 <div className="flex items-center gap-1.5">
                   <span className="text-[#7A7268]">Post {igIdx + 1} of 3</span>
@@ -997,51 +1036,6 @@ export const Footer: React.FC<FooterProps> = ({ lang, onNavigate }) => {
                     </button>
                   </div>
                 </div>
-                <a
-                  href="https://www.youtube.com/@BJP4India"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-[#CC0000] hover:underline inline-flex items-center gap-1"
-                >
-                  <span>Watch on YouTube</span>
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </div>
-            </div>iv data-feed-item className="p-2.5 bg-[#F9F9F9] border border-gray-200 rounded-sm">
-                  <div
-                    className="relative rounded overflow-hidden cursor-pointer group mb-2 bg-[#160D09]"
-                    style={{ aspectRatio: "16/9" }}
-                    onClick={() => openVideo("https://www.youtube.com/@BJP4India")}
-                  >
-                    <img
-                      src="/images/portrait-contact.avif"
-                      alt="State Executive"
-                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300 opacity-90"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/25 group-hover:bg-black/15 transition-colors">
-                      <div className="w-11 h-11 rounded-full bg-white/95 text-[#CC0000] flex items-center justify-center shadow-lg group-hover:scale-110 transition-all">
-                        <Play className="w-5 h-5 fill-current ml-0.5" />
-                      </div>
-                    </div>
-                    <span className="absolute top-1.5 right-1.5 bg-black/75 text-white text-[9.5px] font-semibold px-1.5 py-0.5 rounded">
-                      22:08
-                    </span>
-                  </div>
-                  <p className="text-[12px] font-medium leading-snug text-[#171717] m-0 mb-1">
-                    {hi
-                      ? "विस्तारित प्रदेश कार्यसमिति बैठक: महत्वपूर्ण सांगठनिक संबोधन"
-                      : "Extended State Executive Meeting: Key Organisational Address"}
-                  </p>
-                  <div className="flex items-center justify-between text-[10.5px] text-[#7A7268]">
-                    <span>76K views · 3 weeks ago</span>
-                    <span className="text-[#CC0000] font-semibold">Watch</span>
-                  </div>
-                </div>
-              </div>
-
-              {/* Card Bottom Footer */}
-              <div className="p-2.5 border-t border-gray-100 bg-[#FAFAFA] flex items-center justify-between text-[11px] shrink-0">
-                <span className="text-[#7A7268]">Video {ytIdx + 1} of 3</span>
                 <a
                   href="https://www.youtube.com/@BJP4India"
                   target="_blank"
