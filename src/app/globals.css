@@ -290,3 +290,24 @@ body {
 [data-rail]::-webkit-scrollbar {
   display: none;
 }
+
+/* Social Media Card Feed vertical scrollbar */
+.social-feed-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #9E978C #EFECE6;
+}
+.social-feed-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.social-feed-scroll::-webkit-scrollbar-track {
+  background: #EFECE6;
+  border-radius: 3px;
+}
+.social-feed-scroll::-webkit-scrollbar-thumb {
+  background: #9E978C;
+  border-radius: 3px;
+}
+.social-feed-scroll::-webkit-scrollbar-thumb:hover {
+  background: #736C61;
+}
+
