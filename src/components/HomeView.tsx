@@ -106,15 +106,14 @@ export const HomeView: React.FC<HomeViewProps> = ({ lang, onNavigate }) => {
   const vals = hi ? VALS_HI : VALS_EN;
   const [activeField, setActiveField] = useState(0);
   const [activeYear, setActiveYear] = useState(
-    MILESTONES[MILESTONES.length - 1].year
+    MILESTONES[0]?.year || "2006"
   );
 
   const tr = (o: { en: string; hi: string }) => (hi ? o.hi : o.en);
   const selectedField = vals.fields[activeField] || vals.fields[0];
   const selectedLead = vals.leadSections[activeField] || vals.leadSections[0];
-  const recentMilestones = MILESTONES.slice(-2);
   const activeMilestone =
-    recentMilestones.find((m) => m.year === activeYear) || recentMilestones[recentMilestones.length - 1];
+    MILESTONES.find((m) => m.year === activeYear) || MILESTONES[0];
 
   return (
     <div className="space-y-0" style={{ background: "#F7F4EE", color: "#171717" }}>
@@ -401,7 +400,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ lang, onNavigate }) => {
                 className="absolute pointer-events-none"
                 style={{ left: 0, right: 0, top: "52px", height: "1px", background: "rgba(33,19,13,.28)" }}
               />
-              {recentMilestones.map((m) => {
+              {MILESTONES.map((m) => {
                 const isSelected = activeYear === m.year;
                 return (
                   <button
