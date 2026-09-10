@@ -1,0 +1,699 @@
+{
+  "keyFacts": [
+    {
+      "k": "Born",
+      "v": "23 May 1980, Ranchi"
+    },
+    {
+      "k": "Constituency",
+      "v": "Bankipur, Patna"
+    },
+    {
+      "k": "Assembly terms",
+      "v": "Five (2006, 2010, 2015, 2020, 2025)"
+    },
+    {
+      "k": "Education",
+      "v": "Intermediate (Class 12)"
+    },
+    {
+      "k": "Cabinet portfolios",
+      "v": "Road Construction; Urban Development & Housing; Law & Justice"
+    },
+    {
+      "k": "Current office",
+      "v": "National President, since 20 January 2026"
+    }
+  ],
+  "fields": [
+    {
+      "i": 0,
+      "pos": {
+        "left": "2.66%",
+        "top": "8.27%",
+        "width": "27.15%",
+        "rot": "-3.2deg",
+        "bg": "#FFF8EC",
+        "fg": "#21130D"
+      },
+      "title1": "Political",
+      "title2": "Leadership",
+      "kicker": "Electoral",
+      "body": "Five consecutive terms in the Bihar Legislative Assembly — Patna West in 2006, then Bankipur in 2010, 2015, 2020 and 2025.",
+      "stat": "05",
+      "statLabel": "Assembly terms",
+      "aria": "Show detail: Political Leadership"
+    },
+    {
+      "i": 1,
+      "pos": {
+        "left": "69.87%",
+        "top": "11.11%",
+        "width": "27.15%",
+        "rot": "2.7deg",
+        "bg": "#FFF8EC",
+        "fg": "#21130D"
+      },
+      "title1": "Governance",
+      "title2": "",
+      "kicker": "Government",
+      "body": "Cabinet Minister in the Government of Bihar, holding Road Construction, Urban Development & Housing, and Law & Justice.",
+      "stat": "03",
+      "statLabel": "Portfolios held",
+      "aria": "Show detail: Governance "
+    },
+    {
+      "i": 2,
+      "pos": {
+        "left": "6.94%",
+        "top": "61.79%",
+        "width": "27.15%",
+        "rot": "2.2deg",
+        "bg": "#FFF8EC",
+        "fg": "#21130D"
+      },
+      "title1": "Organisation",
+      "title2": "",
+      "kicker": "Party",
+      "body": "Bihar state president and national general secretary of the Bharatiya Janata Yuva Morcha; party in-charge for Sikkim and Chhattisgarh.",
+      "stat": "02",
+      "statLabel": "State assignments",
+      "aria": "Show detail: Organisation "
+    },
+    {
+      "i": 3,
+      "pos": {
+        "left": "64.13%",
+        "top": "59.82%",
+        "width": "32.83%",
+        "rot": "-2.4deg",
+        "bg": "#EF893D",
+        "fg": "#21130D"
+      },
+      "title1": "National",
+      "title2": "Leadership",
+      "kicker": "National",
+      "body": "Appointed National Working President in December 2025 and elected National President on 20 January 2026 — the youngest to hold the office and the first from Bihar.",
+      "stat": "2026",
+      "statLabel": "Elected 20 January, New Delhi",
+      "aria": "Show detail: National Leadership"
+    }
+  ],
+  "offices": [
+    {
+      "period": "2006 – 2010",
+      "title": "Member, Bihar Legislative Assembly",
+      "body": "Patna West",
+      "cat": "Elections"
+    },
+    {
+      "period": "2010 – present",
+      "title": "Member, Bihar Legislative Assembly",
+      "body": "Bankipur",
+      "cat": "Elections"
+    },
+    {
+      "period": "until 2019",
+      "title": "State President, Bharatiya Janata Yuva Morcha",
+      "body": "Bihar unit",
+      "cat": "Organisation"
+    },
+    {
+      "period": "Feb 2021 – Aug 2022",
+      "title": "Minister of Road Construction",
+      "body": "Government of Bihar",
+      "cat": "Governance"
+    },
+    {
+      "period": "2023",
+      "title": "Election in-charge, Chhattisgarh",
+      "body": "Party organisation",
+      "cat": "Organisation"
+    },
+    {
+      "period": "Mar 2024 – Feb 2025",
+      "title": "Minister of Law & Justice",
+      "body": "Government of Bihar",
+      "cat": "Governance"
+    },
+    {
+      "period": "2024 – Dec 2025",
+      "title": "Minister of Urban Development & Housing; Road Construction",
+      "body": "Government of Bihar",
+      "cat": "Governance"
+    },
+    {
+      "period": "Dec 2025 – Jan 2026",
+      "title": "National Working President",
+      "body": "Bharatiya Janata Party",
+      "cat": "National Role"
+    },
+    {
+      "period": "Since Jan 2026",
+      "title": "National President",
+      "body": "Bharatiya Janata Party",
+      "cat": "National Role"
+    }
+  ],
+  "bioSections": [
+    {
+      "id": "b1",
+      "anchor": "#b1",
+      "num": "01",
+      "title": "Introduction",
+      "body": "Nitin Nabin is the National President of the Bharatiya Janata Party and a five-time member of the Bihar Legislative Assembly from Bankipur. He has held three portfolios in the Government of Bihar and has worked in the party organisation for nearly two decades."
+    },
+    {
+      "id": "b2",
+      "anchor": "#b2",
+      "num": "02",
+      "title": "Early life",
+      "body": "Born on 23 May 1980 in Ranchi, in present-day Jharkhand. He is the son of Nabin Kishore Prasad Sinha, a four-time legislator from Patna West."
+    },
+    {
+      "id": "b3",
+      "anchor": "#b3",
+      "num": "03",
+      "title": "Education",
+      "body": "Public reporting records that he has studied to Intermediate level, Class 12. No further verified detail is available, and none has been recorded here."
+    },
+    {
+      "id": "b4",
+      "anchor": "#b4",
+      "num": "04",
+      "title": "Entry into public life",
+      "body": "He entered politics as an active member of the Bharatiya Janata Yuva Morcha. In 2006, at twenty-six, he contested the by-election for Patna West left vacant by his father's death and won by a margin of nearly 60,000 votes."
+    },
+    {
+      "id": "b5",
+      "anchor": "#b5",
+      "num": "05",
+      "title": "Electoral journey",
+      "body": "Patna West in 2006, then Bankipur in 2010, 2015, 2020 and 2025 — five consecutive wins. He defeated Luv Sinha by 39,036 votes in 2020 and Rekha Kumari by 51,936 votes in 2025, when he polled 98,299 votes."
+    },
+    {
+      "id": "b6",
+      "anchor": "#b6",
+      "num": "06",
+      "title": "Organisational work",
+      "body": "He was state president of the Bihar Yuva Morcha until 2019 and national general secretary of the wing. He was later made party in-charge for Sikkim and election in-charge for Chhattisgarh, where he led the 2023 assembly campaign."
+    },
+    {
+      "id": "b7",
+      "anchor": "#b7",
+      "num": "07",
+      "title": "Government responsibilities",
+      "body": "Minister of Road Construction from 9 February 2021 to 9 August 2022. Re-appointed a minister on 15 March 2024, holding Law & Justice until 26 February 2025 alongside Road Construction and Urban Development & Housing."
+    },
+    {
+      "id": "b8",
+      "anchor": "#b8",
+      "num": "08",
+      "title": "National role",
+      "body": "In December 2025 the Parliamentary Board appointed him National Working President — the youngest in the party's history and the first from Bihar. He resigned from the Bihar cabinet the following day, citing the principle of one man, one post."
+    },
+    {
+      "id": "b9",
+      "anchor": "#b9",
+      "num": "09",
+      "title": "Current responsibilities",
+      "body": "On 20 January 2026 he was elected National President, unopposed, at the party headquarters in New Delhi, having been the sole candidate with 37 valid sets of nomination papers. He has since made organisational visits to West Bengal, Gujarat and Andhra Pradesh."
+    }
+  ],
+  "leadSections": [
+    {
+      "kicker": "Electoral",
+      "title": "Political Leadership",
+      "overview": "Twenty years representing one part of Patna, first as Patna West and then as Bankipur, across five consecutive elections.",
+      "items": [
+        {
+          "when": "2006",
+          "what": "Patna West by-election, won by nearly 60,000 votes"
+        },
+        {
+          "when": "2010",
+          "what": "First win from the newly constituted Bankipur seat"
+        },
+        {
+          "when": "2015",
+          "what": "Third consecutive term"
+        },
+        {
+          "when": "2020",
+          "what": "Fourth term, margin of 39,036 votes"
+        },
+        {
+          "when": "2025",
+          "what": "98,299 votes; fifth term with a margin of 51,936"
+        }
+      ]
+    },
+    {
+      "kicker": "Government",
+      "title": "Governance",
+      "overview": "Three portfolios across two separate spells in the Nitish Kumar-led Government of Bihar.",
+      "items": [
+        {
+          "when": "2021 – 2022",
+          "what": "Minister of Road Construction"
+        },
+        {
+          "when": "2024 – 2025",
+          "what": "Minister of Law & Justice"
+        },
+        {
+          "when": "2024 – 2025",
+          "what": "Minister of Urban Development & Housing"
+        },
+        {
+          "when": "Dec 2025",
+          "what": "Resigned from the cabinet on taking national office"
+        }
+      ]
+    },
+    {
+      "kicker": "Party",
+      "title": "Organisation",
+      "overview": "Nearly two decades of organisational work, from the youth wing to state election charges.",
+      "items": [
+        {
+          "when": "until 2019",
+          "what": "State president, Bharatiya Janata Yuva Morcha, Bihar"
+        },
+        {
+          "when": "—",
+          "what": "National general secretary, Yuva Morcha"
+        },
+        {
+          "when": "—",
+          "what": "Party in-charge, Sikkim"
+        },
+        {
+          "when": "2023",
+          "what": "Election in-charge, Chhattisgarh assembly campaign"
+        }
+      ]
+    },
+    {
+      "kicker": "National",
+      "title": "National Leadership",
+      "overview": "National Working President in December 2025 and National President in January 2026 — the youngest in the office and the first from Bihar.",
+      "items": [
+        {
+          "when": "Dec 2025",
+          "what": "Appointed National Working President by the Parliamentary Board"
+        },
+        {
+          "when": "20 Jan 2026",
+          "what": "Elected National President unopposed with 37 nomination sets"
+        },
+        {
+          "when": "Jan 2026",
+          "what": "First official state visit, West Bengal"
+        },
+        {
+          "when": "Feb 2026",
+          "what": "Gujarat organisational meeting, Gandhinagar"
+        },
+        {
+          "when": "Aug 2026",
+          "what": "Extended state executive, Visakhapatnam"
+        }
+      ]
+    }
+  ],
+  "workItems": [
+    {
+      "category": "Office",
+      "date": "2006 – 2010",
+      "title": "Member, Bihar Legislative Assembly",
+      "body": "Patna West",
+      "location": "Patna West",
+      "cat": "Elections"
+    },
+    {
+      "category": "Office",
+      "date": "2010 – present",
+      "title": "Member, Bihar Legislative Assembly",
+      "body": "Bankipur",
+      "location": "Bankipur",
+      "cat": "Elections"
+    },
+    {
+      "category": "Office",
+      "date": "until 2019",
+      "title": "State President, Bharatiya Janata Yuva Morcha",
+      "body": "Bihar unit",
+      "location": "Bihar unit",
+      "cat": "Organisation"
+    },
+    {
+      "category": "Office",
+      "date": "Feb 2021 – Aug 2022",
+      "title": "Minister of Road Construction",
+      "body": "Government of Bihar",
+      "location": "Government of Bihar",
+      "cat": "Governance"
+    },
+    {
+      "category": "Office",
+      "date": "2023",
+      "title": "Election in-charge, Chhattisgarh",
+      "body": "Party organisation",
+      "location": "Party organisation",
+      "cat": "Organisation"
+    },
+    {
+      "category": "Office",
+      "date": "Mar 2024 – Feb 2025",
+      "title": "Minister of Law & Justice",
+      "body": "Government of Bihar",
+      "location": "Government of Bihar",
+      "cat": "Governance"
+    },
+    {
+      "category": "Office",
+      "date": "2024 – Dec 2025",
+      "title": "Minister of Urban Development & Housing; Road Construction",
+      "body": "Government of Bihar",
+      "location": "Government of Bihar",
+      "cat": "Governance"
+    },
+    {
+      "category": "Office",
+      "date": "Dec 2025 – Jan 2026",
+      "title": "National Working President",
+      "body": "Bharatiya Janata Party",
+      "location": "Bharatiya Janata Party",
+      "cat": "National Role"
+    },
+    {
+      "category": "Office",
+      "date": "Since Jan 2026",
+      "title": "National President",
+      "body": "Bharatiya Janata Party",
+      "location": "Bharatiya Janata Party",
+      "cat": "National Role"
+    },
+    {
+      "category": "Event",
+      "date": "18 Aug 2026",
+      "title": "Addresses the Extended State Executive Meeting",
+      "body": "Addressed the extended state executive committee meeting and a Yuva Samvad in Andhra Pradesh.",
+      "location": "Visakhapatnam, Andhra Pradesh",
+      "cat": "Public Events"
+    },
+    {
+      "category": "Public event",
+      "date": "17 Aug 2026",
+      "title": "Attends the M. Venkaiah Naidu biography launch",
+      "body": "Present at the launch of the biography of former Vice-President M. Venkaiah Naidu.",
+      "location": "New Delhi",
+      "cat": "Public Events"
+    },
+    {
+      "category": "Event",
+      "date": "12 Aug 2026",
+      "title": "Attends the Tiranga Yatra programme",
+      "body": "Took part in the Tiranga Yatra programme in the capital.",
+      "location": "New Delhi",
+      "cat": "Public Events"
+    },
+    {
+      "category": "Statement",
+      "date": "6 Apr 2026",
+      "title": "Addresses workers on the party's 47th Foundation Day",
+      "body": "Said the party's strength rests on the dedication and commitment of lakhs of its workers, and paid tribute to former national presidents. He noted that the party was established in 1980.",
+      "location": "New Delhi",
+      "cat": "Public Events"
+    },
+    {
+      "category": "Statement",
+      "date": "21 Feb 2026",
+      "title": "Chairs organisational meeting at Kamalam",
+      "body": "On a three-day Gujarat visit he chaired a high-level organisational meeting at the state headquarters and urged workers to remain constantly active with new goals.",
+      "location": "Gandhinagar, Gujarat",
+      "cat": "Organisation"
+    },
+    {
+      "category": "Update",
+      "date": "27 Jan 2026",
+      "title": "First official visit to West Bengal",
+      "body": "A two-day visit taking in a state core team meeting in Durgapur, the Bardhaman Bibhag Karyakarta Sammelan and a district meeting in Asansol.",
+      "location": "Durgapur & Asansol, West Bengal",
+      "cat": "Organisation"
+    }
+  ],
+  "albums": [
+    {
+      "title": "Taking Charge",
+      "count": "New Delhi · 2026",
+      "slotId": "nn-album-1",
+      "mediaSlotId": "nn-media-1",
+      "placeholder": "Taking Charge — drop photographs"
+    },
+    {
+      "title": "Bihar",
+      "count": "Bankipur & Patna",
+      "slotId": "nn-album-2",
+      "mediaSlotId": "nn-media-2",
+      "placeholder": "Bihar — drop photographs"
+    },
+    {
+      "title": "Organisation",
+      "count": "State visits",
+      "slotId": "nn-album-3",
+      "mediaSlotId": "nn-media-3",
+      "placeholder": "Organisation — drop photographs"
+    },
+    {
+      "title": "National Events",
+      "count": "2026",
+      "slotId": "nn-album-4",
+      "mediaSlotId": "nn-media-4",
+      "placeholder": "National Events — drop photographs"
+    },
+    {
+      "title": "Public Meetings",
+      "count": "Awaiting material",
+      "slotId": "nn-album-5",
+      "mediaSlotId": "nn-media-5",
+      "placeholder": "Public Meetings — drop photographs"
+    },
+    {
+      "title": "Speeches",
+      "count": "Awaiting material",
+      "slotId": "nn-album-6",
+      "mediaSlotId": "nn-media-6",
+      "placeholder": "Speeches — drop photographs"
+    }
+  ],
+  "arc": [
+    {
+      "step": "01 · Constituency",
+      "title": "Bihar",
+      "years": "2006 — 2025",
+      "body": "Twenty years representing one part of Patna, first as Patna West and then as Bankipur, through five consecutive elections.",
+      "cta": "See the journey",
+      "aria": "See the journey: Bihar"
+    },
+    {
+      "step": "02 · Organisation",
+      "title": "The party machine",
+      "years": "2010s — 2023",
+      "body": "Youth wing leadership in Bihar and nationally, then state assignments — in-charge for Sikkim, and the Chhattisgarh campaign of 2023.",
+      "cta": "Organisation record",
+      "aria": "Organisation record: The party machine"
+    },
+    {
+      "step": "03 · National",
+      "title": "National President",
+      "years": "2025 — present",
+      "body": "National Working President in December 2025; elected National President on 20 January 2026, the first party president from Bihar.",
+      "cta": "National office",
+      "aria": "National office: National President"
+    }
+  ],
+  "updatesHome": [
+    {
+      "category": "Event",
+      "date": "18 Aug 2026",
+      "title": "Addresses the Extended State Executive Meeting",
+      "summary": "Addressed the extended state executive committee meeting and a Yuva Samvad in Andhra Pradesh.",
+      "location": "Visakhapatnam, Andhra Pradesh"
+    },
+    {
+      "category": "Public event",
+      "date": "17 Aug 2026",
+      "title": "Attends the M. Venkaiah Naidu biography launch",
+      "summary": "Present at the launch of the biography of former Vice-President M. Venkaiah Naidu.",
+      "location": "New Delhi"
+    },
+    {
+      "category": "Event",
+      "date": "12 Aug 2026",
+      "title": "Attends the Tiranga Yatra programme",
+      "summary": "Took part in the Tiranga Yatra programme in the capital.",
+      "location": "New Delhi"
+    },
+    {
+      "category": "Statement",
+      "date": "6 Apr 2026",
+      "title": "Addresses workers on the party's 47th Foundation Day",
+      "summary": "Said the party's strength rests on the dedication and commitment of lakhs of its workers, and paid tribute to former national presidents. He noted that the party was established in 1980.",
+      "location": "New Delhi"
+    }
+  ],
+  "updatesRest": [
+    {
+      "category": "Public event",
+      "date": "17 Aug 2026",
+      "title": "Attends the M. Venkaiah Naidu biography launch",
+      "summary": "Present at the launch of the biography of former Vice-President M. Venkaiah Naidu.",
+      "location": "New Delhi"
+    },
+    {
+      "category": "Event",
+      "date": "12 Aug 2026",
+      "title": "Attends the Tiranga Yatra programme",
+      "summary": "Took part in the Tiranga Yatra programme in the capital.",
+      "location": "New Delhi"
+    },
+    {
+      "category": "Statement",
+      "date": "6 Apr 2026",
+      "title": "Addresses workers on the party's 47th Foundation Day",
+      "summary": "Said the party's strength rests on the dedication and commitment of lakhs of its workers, and paid tribute to former national presidents. He noted that the party was established in 1980.",
+      "location": "New Delhi"
+    },
+    {
+      "category": "Statement",
+      "date": "21 Feb 2026",
+      "title": "Chairs organisational meeting at Kamalam",
+      "summary": "On a three-day Gujarat visit he chaired a high-level organisational meeting at the state headquarters and urged workers to remain constantly active with new goals.",
+      "location": "Gandhinagar, Gujarat"
+    },
+    {
+      "category": "Update",
+      "date": "27 Jan 2026",
+      "title": "First official visit to West Bengal",
+      "summary": "A two-day visit taking in a state core team meeting in Durgapur, the Bardhaman Bibhag Karyakarta Sammelan and a district meeting in Asansol.",
+      "location": "Durgapur & Asansol, West Bengal"
+    }
+  ],
+  "speechesHome": [
+    {
+      "category": "Organisation",
+      "title": "Yuva Samvad",
+      "meta": "18 Aug 2026 · Visakhapatnam"
+    },
+    {
+      "category": "Organisation",
+      "title": "Extended State Executive Committee Meeting",
+      "meta": "18 Aug 2026 · Visakhapatnam"
+    },
+    {
+      "category": "Foundation Day",
+      "title": "Address on the party's 47th Foundation Day",
+      "meta": "6 Apr 2026 · New Delhi"
+    },
+    {
+      "category": "Organisation",
+      "title": "Address to the Gujarat state organisational meeting",
+      "meta": "21 Feb 2026 · Gandhinagar"
+    }
+  ],
+  "speechList": [
+    {
+      "category": "Organisation",
+      "date": "18 Aug 2026",
+      "place": "Visakhapatnam",
+      "title": "Yuva Samvad",
+      "summary": "Addressed a Yuva Samvad in Andhra Pradesh during a state visit."
+    },
+    {
+      "category": "Organisation",
+      "date": "18 Aug 2026",
+      "place": "Visakhapatnam",
+      "title": "Extended State Executive Committee Meeting",
+      "summary": "Addressed the extended state executive committee meeting in Andhra Pradesh."
+    },
+    {
+      "category": "Foundation Day",
+      "date": "6 Apr 2026",
+      "place": "New Delhi",
+      "title": "Address on the party's 47th Foundation Day",
+      "summary": "Said the party's strength rests on the dedication and commitment of lakhs of its workers; paid tribute to former national presidents and noted the party's establishment in 1980."
+    },
+    {
+      "category": "Organisation",
+      "date": "21 Feb 2026",
+      "place": "Gandhinagar",
+      "title": "Address to the Gujarat state organisational meeting",
+      "summary": "Urged workers to remain constantly active with new goals and to counter misinformation on social media by highlighting welfare schemes."
+    },
+    {
+      "category": "Acceptance",
+      "date": "20 Jan 2026",
+      "place": "New Delhi",
+      "title": "Remarks on taking charge as National President",
+      "summary": "Thanked the Prime Minister and senior leaders, remembered the party's former national presidents, and recalled his own journey from becoming an MLA for the first time in 2006."
+    }
+  ],
+  "press": [
+    {
+      "outlet": "DD News",
+      "date": "20 Jan 2026",
+      "title": "Nitin Nabin takes charge as BJP's youngest national president",
+      "href": "https://ddnews.gov.in/en/nitin-nabin-takes-charge-as-bjp-national-president/"
+    },
+    {
+      "outlet": "Akashvani News",
+      "date": "20 Jan 2026",
+      "title": "BJP appoints Nitin Nabin as New National Party President; PM shows confidence in his leadership",
+      "href": "https://newsonair.gov.in/bjp-appoints-nitin-nabin-as-new-national-party-president-pm-shows-confidence-in-his-leadership/"
+    },
+    {
+      "outlet": "Gulf News",
+      "date": "20 Jan 2026",
+      "title": "Nitin Nabin elected BJP national president, marking youth-led leadership push",
+      "href": "https://gulfnews.com/world/asia/india/nitin-nabin-elected-bjp-national-president-marking-youth-led-leadership-push-1.500414612"
+    },
+    {
+      "outlet": "Deccan Herald",
+      "date": "Dec 2025",
+      "title": "Who is Nitin Nabin, Bihar Minister who has been named BJP national working president",
+      "href": "https://www.deccanherald.com/india/who-is-nitin-nabin-bihar-minister-who-has-been-named-bjp-national-working-president-3831203"
+    },
+    {
+      "outlet": "Deccan Herald",
+      "date": "Dec 2025",
+      "title": "Nitin Nabin resigns from Nitish Kumar cabinet after being appointed as BJP national working president",
+      "href": "https://www.deccanherald.com/india/bihar/nitin-nabin-resigns-from-nitish-kumar-cabinet-after-being-appointed-as-bjp-national-working-president-3832911"
+    },
+    {
+      "outlet": "Akashvani News",
+      "date": "15 Dec 2025",
+      "title": "BJP appoints Bihar minister Nitin Nabin as National Working President",
+      "href": "https://www.newsonair.gov.in/bjp-appoints-bihar-minister-nitin-nabin-as-national-working-president"
+    },
+    {
+      "outlet": "Akashvani News",
+      "date": "6 Apr 2026",
+      "title": "BJP President Nitin Nabin says party's strength rests on dedication & commitment of lakhs of its workers",
+      "href": "https://www.newsonair.gov.in/bjp-president-nitin-nabin-says-partys-strength-rests-on-dedication-commitment-of-lakhs-of-its-workers-2"
+    },
+    {
+      "outlet": "Akashvani News",
+      "date": "21 Feb 2026",
+      "title": "BJP National President Nitin Nabin urges workers to remain constantly active with new goals",
+      "href": "https://www.newsonair.gov.in/bjp-national-president-nitin-nabin-urges-workers-to-remain-constantly-active-with-new-goals"
+    },
+    {
+      "outlet": "Akashvani News",
+      "date": "27 Jan 2026",
+      "title": "BJP's National President Nitin Nabin to visit West Bengal today",
+      "href": "https://www.newsonair.gov.in/bjps-national-president-nitin-nabin-to-visit-west-bengal-today"
+    }
+  ]
+}

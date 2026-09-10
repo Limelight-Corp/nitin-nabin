@@ -1,0 +1,292 @@
+@import "tailwindcss";
+
+:root {
+  --sf: #E87518;
+  --hdrh: 84px;
+  --prog: 0;
+  --photofx: none;
+  --color-bg: #F7F4EE;
+  --color-dark: #171717;
+  --color-espresso: #21130D;
+  --color-cream: #FFF8ED;
+  --color-accent: #E87518;
+  --font-heading: var(--font-newsreader), Georgia, serif;
+  --font-body: var(--font-archivo), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-dark);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.font-serif-brand {
+  font-family: var(--font-newsreader), Georgia, serif;
+}
+
+.font-sans-body {
+  font-family: var(--font-archivo), system-ui, sans-serif;
+}
+
+/* Scroll progress bar */
+#scroll-progress-bar {
+  transform-origin: left;
+  transform: scaleX(var(--prog));
+}
+
+@keyframes nnFade {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Page-level transitions are now handled by framer-motion's AnimatePresence
+   in src/app/page.tsx, not CSS keyframes. */
+
+/* Respect reduced-motion preference: kill scroll-reveals and page fades */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Responsive Navigation & Tabbar matching source design */
+@media (max-width: 1140px) {
+  [data-navdesk] {
+    display: none !important;
+  }
+  [data-navmob] {
+    display: inline-flex !important;
+  }
+}
+
+@media (min-width: 761px) {
+  [data-tabbar] {
+    display: none !important;
+  }
+}
+
+@media (max-width: 760px) {
+  [data-deskonly] {
+    display: none !important;
+  }
+  html, body {
+    overscroll-behavior-y: none;
+  }
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  [data-hdr-inner] {
+    height: 60px !important;
+  }
+  [data-main] {
+    padding-top: 60px !important;
+    padding-bottom: calc(66px + env(safe-area-inset-bottom, 0px)) !important;
+  }
+  [data-tabbar] {
+    display: grid !important;
+  }
+
+  /* Hero: stack — image fills the top, gradient fades up into the copy */
+  [data-hero] {
+    background-position: 72% top !important;
+    min-height: 78svh !important;
+  }
+  [data-hero-scrim] {
+    background: linear-gradient(
+      180deg,
+      rgba(255, 248, 237, 0) 18%,
+      rgba(255, 248, 237, 0.55) 40%,
+      rgba(255, 248, 237, 0.94) 58%,
+      rgba(255, 248, 237, 1) 72%
+    ) !important;
+  }
+  [data-hero-inner] {
+    padding-top: 34svh !important;
+  }
+
+  /* Timeline rail: swipeable, no visible scrollbar */
+  [data-rail] {
+    scroll-snap-type: x proximity;
+  }
+
+  /* Four Fields stage: drop the absolute radial layout, stack full-width cards */
+  [data-fieldstage] {
+    aspect-ratio: auto !important;
+    min-height: 0 !important;
+    height: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 14px !important;
+    padding: 14px !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  [data-fielddeco] {
+    display: none !important;
+  }
+  [data-fieldcard] {
+    position: static !important;
+    width: 100% !important;
+    transform: none !important;
+  }
+  [data-fieldcard]:hover {
+    transform: none !important;
+  }
+
+  /* About page's Contents nav: only makes sense pinned beside its own
+     side-by-side column on desktop. Stacked to a single column on mobile,
+     a sticky nav would float in place while the article text scrolls past
+     underneath it, overlapping. Drop it back into normal document flow. */
+  [data-sticky] {
+    position: static !important;
+    top: auto !important;
+  }
+}
+
+@media (max-width: 520px) {
+  [data-hero-title] {
+    font-size: clamp(52px, 15vw, 72px) !important;
+  }
+}
+
+/* Custom button states */
+.btn-lead {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.btn-lead-primary {
+  background: var(--sf);
+  color: #171717;
+  border: 1px solid var(--sf);
+}
+.btn-lead-primary:hover {
+  background: #d86910;
+  color: #000;
+  box-shadow: 0 4px 14px rgba(232, 117, 24, 0.35);
+}
+
+.btn-lead-dark {
+  background: #171717;
+  color: #FFF8EC;
+  border: 1px solid #171717;
+}
+.btn-lead-dark:hover {
+  background: #2a2a2a;
+}
+
+.btn-lead-ghost {
+  background: transparent;
+  color: #171717;
+  border: 1px solid rgba(23, 23, 23, 0.28);
+}
+.btn-lead-ghost:hover {
+  border-color: #171717;
+  background: rgba(23, 23, 23, 0.04);
+}
+
+.btn-lead-ghost-light {
+  background: transparent;
+  color: #FFF8EC;
+  border: 1px solid rgba(255, 248, 236, 0.3);
+}
+.btn-lead-ghost-light:hover {
+  border-color: #FFF8EC;
+  background: rgba(255, 248, 236, 0.08);
+}
+
+/* Table styling */
+.table-record {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-record th {
+  text-align: left;
+  padding: 16px 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #7A7268;
+  border-bottom: 2px solid #171717;
+  background: #F0EDE6;
+}
+
+.table-record td {
+  padding: 18px 20px;
+  font-size: 14px;
+  line-height: 1.5;
+  border-bottom: 1px solid rgba(23, 23, 23, 0.12);
+  vertical-align: top;
+}
+
+.table-record tr:hover td {
+  background: rgba(232, 117, 24, 0.04);
+}
+
+/* Card hover lift */
+.card-lift {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.card-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.08);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F4EE;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4CDBC;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A99F8D;
+}
+
+/* Horizontal swipeable rails (e.g. the journey timeline) hide their scrollbar */
+[data-rail] {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+}
+[data-rail]::-webkit-scrollbar {
+  display: none;
+}

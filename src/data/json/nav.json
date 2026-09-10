@@ -1,0 +1,56 @@
+[
+  {
+    "id": "home",
+    "num": "01",
+    "en": "Home",
+    "hi": "होम"
+  },
+  {
+    "id": "about",
+    "num": "02",
+    "en": "About",
+    "hi": "परिचय"
+  },
+  {
+    "id": "journey",
+    "num": "03",
+    "en": "Journey",
+    "hi": "यात्रा"
+  },
+  {
+    "id": "leadership",
+    "num": "04",
+    "en": "Leadership",
+    "hi": "नेतृत्व"
+  },
+  {
+    "id": "work",
+    "num": "05",
+    "en": "Work",
+    "hi": "कार्य"
+  },
+  {
+    "id": "speeches",
+    "num": "06",
+    "en": "Speeches",
+    "hi": "भाषण"
+  },
+  {
+    "id": "media",
+    "num": "07",
+    "en": "Media",
+    "hi": "मीडिया"
+  },
+  {
+    "id": "updates",
+    "num": "08",
+    "en": "Updates",
+    "hi": "अपडेट"
+  },
+  {
+    "id": "contact",
+    "num": "09",
+    "en": "Contact",
+    "hi": "संपर्क"
+  }
+]

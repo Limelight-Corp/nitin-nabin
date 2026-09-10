@@ -1,0 +1,122 @@
+[
+  {
+    "category": {
+      "en": "Event",
+      "hi": "कार्यक्रम"
+    },
+    "date": "18 Aug 2026",
+    "location": {
+      "en": "Visakhapatnam, Andhra Pradesh",
+      "hi": "विशाखापत्तनम, आंध्र प्रदेश"
+    },
+    "title": {
+      "en": "Addresses the Extended State Executive Meeting",
+      "hi": "विस्तारित प्रदेश कार्यसमिति बैठक को संबोधित"
+    },
+    "summary": {
+      "en": "Addressed the extended state executive committee meeting and a Yuva Samvad in Andhra Pradesh.",
+      "hi": "आंध्र प्रदेश में विस्तारित प्रदेश कार्यसमिति बैठक और युवा संवाद को संबोधित किया।"
+    },
+    "cat": "Public Events"
+  },
+  {
+    "category": {
+      "en": "Public event",
+      "hi": "सार्वजनिक कार्यक्रम"
+    },
+    "date": "17 Aug 2026",
+    "location": {
+      "en": "New Delhi",
+      "hi": "नई दिल्ली"
+    },
+    "title": {
+      "en": "Attends the M. Venkaiah Naidu biography launch",
+      "hi": "एम. वेंकैया नायडू की जीवनी के विमोचन में सम्मिलित"
+    },
+    "summary": {
+      "en": "Present at the launch of the biography of former Vice-President M. Venkaiah Naidu.",
+      "hi": "पूर्व उपराष्ट्रपति एम. वेंकैया नायडू की जीवनी के विमोचन कार्यक्रम में उपस्थित।"
+    },
+    "cat": "Public Events"
+  },
+  {
+    "category": {
+      "en": "Event",
+      "hi": "कार्यक्रम"
+    },
+    "date": "12 Aug 2026",
+    "location": {
+      "en": "New Delhi",
+      "hi": "नई दिल्ली"
+    },
+    "title": {
+      "en": "Attends the Tiranga Yatra programme",
+      "hi": "तिरंगा यात्रा कार्यक्रम में सम्मिलित"
+    },
+    "summary": {
+      "en": "Took part in the Tiranga Yatra programme in the capital.",
+      "hi": "राजधानी में आयोजित तिरंगा यात्रा कार्यक्रम में भाग लिया।"
+    },
+    "cat": "Public Events"
+  },
+  {
+    "category": {
+      "en": "Statement",
+      "hi": "वक्तव्य"
+    },
+    "date": "6 Apr 2026",
+    "location": {
+      "en": "New Delhi",
+      "hi": "नई दिल्ली"
+    },
+    "title": {
+      "en": "Addresses workers on the party's 47th Foundation Day",
+      "hi": "पार्टी के 47वें स्थापना दिवस पर कार्यकर्ताओं को संबोधित"
+    },
+    "summary": {
+      "en": "Said the party's strength rests on the dedication and commitment of lakhs of its workers, and paid tribute to former national presidents. He noted that the party was established in 1980.",
+      "hi": "कहा कि पार्टी की शक्ति उसके लाखों कार्यकर्ताओं के समर्पण और निष्ठा पर टिकी है, और पूर्व राष्ट्रीय अध्यक्षों को श्रद्धांजलि दी। उन्होंने उल्लेख किया कि पार्टी की स्थापना 1980 में हुई थी।"
+    },
+    "cat": "Public Events"
+  },
+  {
+    "category": {
+      "en": "Statement",
+      "hi": "वक्तव्य"
+    },
+    "date": "21 Feb 2026",
+    "location": {
+      "en": "Gandhinagar, Gujarat",
+      "hi": "गांधीनगर, गुजरात"
+    },
+    "title": {
+      "en": "Chairs organisational meeting at Kamalam",
+      "hi": "कमलम में संगठनात्मक बैठक की अध्यक्षता"
+    },
+    "summary": {
+      "en": "On a three-day Gujarat visit he chaired a high-level organisational meeting at the state headquarters and urged workers to remain constantly active with new goals.",
+      "hi": "तीन दिवसीय गुजरात दौरे पर उन्होंने प्रदेश मुख्यालय में उच्चस्तरीय संगठनात्मक बैठक की अध्यक्षता की और कार्यकर्ताओं से नए लक्ष्यों के साथ निरंतर सक्रिय रहने का आह्वान किया।"
+    },
+    "cat": "Organisation"
+  },
+  {
+    "category": {
+      "en": "Update",
+      "hi": "अपडेट"
+    },
+    "date": "27 Jan 2026",
+    "location": {
+      "en": "Durgapur & Asansol, West Bengal",
+      "hi": "दुर्गापुर एवं आसनसोल, पश्चिम बंगाल"
+    },
+    "title": {
+      "en": "First official visit to West Bengal",
+      "hi": "पश्चिम बंगाल का पहला आधिकारिक दौरा"
+    },
+    "summary": {
+      "en": "A two-day visit taking in a state core team meeting in Durgapur, the Bardhaman Bibhag Karyakarta Sammelan and a district meeting in Asansol.",
+      "hi": "दो दिवसीय दौरे में दुर्गापुर में प्रदेश कोर टीम बैठक, बर्दवान विभाग कार्यकर्ता सम्मेलन और आसनसोल में जिला बैठक शामिल रही।"
+    },
+    "cat": "Organisation"
+  }
+]

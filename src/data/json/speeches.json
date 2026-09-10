@@ -1,0 +1,97 @@
+[
+  {
+    "category": {
+      "en": "Organisation",
+      "hi": "संगठन"
+    },
+    "date": "18 Aug 2026",
+    "place": {
+      "en": "Visakhapatnam",
+      "hi": "विशाखापत्तनम"
+    },
+    "title": {
+      "en": "Yuva Samvad",
+      "hi": "युवा संवाद"
+    },
+    "summary": {
+      "en": "Addressed a Yuva Samvad in Andhra Pradesh during a state visit.",
+      "hi": "प्रदेश दौरे के दौरान आंध्र प्रदेश में युवा संवाद को संबोधित किया।"
+    }
+  },
+  {
+    "category": {
+      "en": "Organisation",
+      "hi": "संगठन"
+    },
+    "date": "18 Aug 2026",
+    "place": {
+      "en": "Visakhapatnam",
+      "hi": "विशाखापत्तनम"
+    },
+    "title": {
+      "en": "Extended State Executive Committee Meeting",
+      "hi": "विस्तारित प्रदेश कार्यसमिति बैठक"
+    },
+    "summary": {
+      "en": "Addressed the extended state executive committee meeting in Andhra Pradesh.",
+      "hi": "आंध्र प्रदेश में विस्तारित प्रदेश कार्यसमिति बैठक को संबोधित किया।"
+    }
+  },
+  {
+    "category": {
+      "en": "Foundation Day",
+      "hi": "स्थापना दिवस"
+    },
+    "date": "6 Apr 2026",
+    "place": {
+      "en": "New Delhi",
+      "hi": "नई दिल्ली"
+    },
+    "title": {
+      "en": "Address on the party's 47th Foundation Day",
+      "hi": "पार्टी के 47वें स्थापना दिवस पर संबोधन"
+    },
+    "summary": {
+      "en": "Said the party's strength rests on the dedication and commitment of lakhs of its workers; paid tribute to former national presidents and noted the party's establishment in 1980.",
+      "hi": "कहा कि पार्टी की शक्ति उसके लाखों कार्यकर्ताओं के समर्पण और निष्ठा पर टिकी है; पूर्व राष्ट्रीय अध्यक्षों को श्रद्धांजलि दी और 1980 में पार्टी की स्थापना का उल्लेख किया।"
+    }
+  },
+  {
+    "category": {
+      "en": "Organisation",
+      "hi": "संगठन"
+    },
+    "date": "21 Feb 2026",
+    "place": {
+      "en": "Gandhinagar",
+      "hi": "गांधीनगर"
+    },
+    "title": {
+      "en": "Address to the Gujarat state organisational meeting",
+      "hi": "गुजरात प्रदेश संगठनात्मक बैठक को संबोधन"
+    },
+    "summary": {
+      "en": "Urged workers to remain constantly active with new goals and to counter misinformation on social media by highlighting welfare schemes.",
+      "hi": "कार्यकर्ताओं से नए लक्ष्यों के साथ निरंतर सक्रिय रहने और कल्याणकारी योजनाओं को सामने रखकर सोशल मीडिया पर गलत सूचना का प्रतिकार करने का आह्वान किया।"
+    }
+  },
+  {
+    "category": {
+      "en": "Acceptance",
+      "hi": "स्वीकृति"
+    },
+    "date": "20 Jan 2026",
+    "place": {
+      "en": "New Delhi",
+      "hi": "नई दिल्ली"
+    },
+    "title": {
+      "en": "Remarks on taking charge as National President",
+      "hi": "राष्ट्रीय अध्यक्ष का कार्यभार ग्रहण करने पर वक्तव्य"
+    },
+    "summary": {
+      "en": "Thanked the Prime Minister and senior leaders, remembered the party's former national presidents, and recalled his own journey from becoming an MLA for the first time in 2006.",
+      "hi": "प्रधानमंत्री और वरिष्ठ नेताओं का आभार व्यक्त किया, पार्टी के पूर्व राष्ट्रीय अध्यक्षों का स्मरण किया, और 2006 में पहली बार विधायक बनने से अपनी यात्रा को याद किया।"
+    }
+  }
+]
